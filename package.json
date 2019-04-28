@@ -1,7 +1,7 @@
 {
-  "name": "segmented-control",
-  "version": "1.0.0",
-  "description": "segmented-control React component",
+  "name": "@cmds/segmented-control",
+  "version": "0.1.0",
+  "description": "Used two make a choice between a set of options",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -11,6 +11,7 @@
     "umd"
   ],
   "scripts": {
+    "deploy": "cd demo/dist && surge --project ./ --domain cmds-segmented-control.surge.sh",
     "build": "nwb build-react-component",
     "clean": "nwb clean-module && nwb clean-demo",
     "prepublishOnly": "npm run build",
@@ -24,6 +25,8 @@
     "react": "16.x"
   },
   "devDependencies": {
+    "@cmds/demo-utils": "^0.2.0",
+    "emotion": "^10.0.9",
     "nwb": "0.23.x",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"

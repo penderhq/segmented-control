@@ -1,6 +1,6 @@
 {
   "name": "@pndr/segmented-control",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Used two make a choice between a set of options",
   "main": "lib/index.js",
   "module": "es/index.js",

@@ -84,7 +84,7 @@ export default class SegmentedControl extends React.Component {
     return (
         <div
             className={css`
-                    border-radius: 5px;
+                    border-radius: 6px;
                     box-shadow: rgba(0, 0, 0, 0.09) 0px 0px 0px 1px, rgba(0, 0, 0, 0.1) 0px 1px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
                     -webkit-box-shadow: rgba(0, 0, 0, 0.09) 0px 0px 0px 1px, rgba(0, 0, 0, 0.1) 0px 1px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
                     font-size: 15px;
